@@ -1,0 +1,37 @@
+{
+  "name": "zeronetjs-common",
+  "version": "0.0.1-alpha",
+  "description": "Common ZeroNetJS  modules",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "zeronet",
+    "common"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomzone/Zeron/zeron.git"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "base-x": "^3.0.2",
+    "bittorrent-tracker": "^9.2.3",
+    "bunyan": "^1.8.10",
+    "hypercache": "^0.2.0",
+    "ip": "^1.1.5",
+    "merge-recursive": "0.0.3",
+    "multiaddr": "^2.3.0",
+    "peer-id": "^0.9.0",
+    "peer-info": "^0.10.0",
+    "uuid": "^3.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}

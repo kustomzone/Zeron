@@ -1,0 +1,68 @@
+{
+  "name": "zeronet",
+  "version": "0.0.1-alpha",
+  "description": "ZeroNetJS",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "merge-recursive": "0.0.3",
+    "mkdirp": "^0.5.1",
+    "mockery": "^2.1.0",
+    "moment": "^2.18.1",
+    "peer-id": "^0.9.0",
+    "zeronet-client":     "file:zeronet/client",
+    "zeronet-common":     "file:zeronet/common",
+    "zeronet-crypto":     "file:zeronet/crypto",
+    "zeronet-fileserver": "file:zeronet/fileserver",
+    "zeronet-node":       "file:zeronet/node",
+    "zeronet-protocol":   "file:zeronet/protocol",
+    "zeronet-storage-fs": "file:zeronet/storage-fs",
+    "zeronet-swarm":      "file:zeronet/swarm",
+    "zeronet-uiserver":   "file:zeronet/uiserver",
+    "zeronet-zite":       "file:zeronet/zite"
+  },
+  "devDependencies": {
+    "app-module-path": "^2.2.0",
+    "chai": "^4.1.0",
+    "extract-comments": "^0.10.1",
+    "jsdoc-to-markdown": "^3.0.0",
+    "gene-rator": "0.0.1-pre",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.3",
+    "pkg": "^4.1.4",
+    "sinon": "^2.4.1",
+    "sinon-chai": "^2.12.0"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "test:watch": "nodemon -x \"DEBUG=zeronet*,libp2p* npm run test || echo\"",
+    "test:debug": "nodemon -x \"DEBUG=zeronet*,libp2p* mocha || echo\"",
+    "debug": "bash debug.sh",
+    "pkg": "bash pkg.sh",
+    "start": "node zeron.js"
+  },
+  "keywords": [
+    "electron",
+    "zeronet",
+    "js",
+    "p2p"
+  ],
+  "bin": {
+    "zeronet": "zeron.js"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/zeronet/uiserver/ui/**"
+    ]
+  },
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomzone/Zeron/zeron.git"
+  }
+}

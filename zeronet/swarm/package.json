@@ -1,0 +1,32 @@
+{
+  "name": "zeronetjs-swarm",
+  "version": "0.0.1-alpha",
+  "description": "libp2p based ZeroNetJS  swarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "zeronet",
+    "swarm",
+    "libp2p"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomzone/Zeron/zeron.git"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "libp2p": "^0.11.0",
+    "libp2p-kad-dht": "^0.4.1",
+    "libp2p-mdns": "^0.8.0",
+    "libp2p-tcp": "^0.10.2",
+    "multiaddr": "^2.3.0",
+    "nat-upnp": "^1.1.0",
+    "peer-info": "^0.10.0",
+    "request": "^2.81.0"
+  }
+}

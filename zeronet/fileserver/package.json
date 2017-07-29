@@ -1,0 +1,21 @@
+{
+  "name": "zeronetjs-fileserver",
+  "version": "0.0.1-alpha",
+  "description": "ZeroNetJS  fileserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "zeronet",
+    "fileserver"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomzone/Zeron/zeron.git"
+  },
+  "dependencies": {}
+}

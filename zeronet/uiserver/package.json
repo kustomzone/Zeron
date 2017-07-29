@@ -1,0 +1,29 @@
+{
+  "name": "zeronetjs-uiserver",
+  "version": "0.0.1-alpha",
+  "description": "ZeroNetJS  ui and uiserver",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "zeronet",
+    "uiserver",
+    "ui",
+    "coffescript"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomzone/Zeron/zeron.git"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}

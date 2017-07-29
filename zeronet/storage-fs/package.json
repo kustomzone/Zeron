@@ -1,0 +1,27 @@
+{
+  "name": "zeronetjs-storage-fs",
+  "version": "0.0.1-alpha",
+  "description": "ZeroNetJS  filesystem storage module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "zeronet",
+    "storage",
+    "fs",
+    "plain"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kustomzone/Zeron/zeron.git"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "jsonfile": "^3.0.1",
+    "mkdirp": "^0.5.1"
+  }
+}
